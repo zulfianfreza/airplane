@@ -24,8 +24,8 @@ class MainPage extends StatelessWidget {
         case 3:
           return SettingPage();
         default:
+          return HomePage();
       }
-      return HomePage();
     }
 
     Widget customBottomNavigation() {
